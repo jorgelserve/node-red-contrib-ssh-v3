@@ -1,5 +1,5 @@
 {
-  "name": "node-red-contrib-ssh-v3",
+  "name": "@jorgelserve/node-red-contrib-ssh-v3",
   "version": "1.0.3",
   "description": "ssh connection",
   "main": "ssh.js",
@@ -10,9 +10,9 @@
   "license": "Apache license 2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/william89731/node-red-contrib-ssh-v3"
+    "url": "git+https://github.com/jorgelserve/node-red-contrib-ssh-v3"
   },
-  "homepage": "https://github.com/william89731/node-red-contrib-ssh-v3",
+  "homepage": "https://github.com/jorgelserve/node-red-contrib-ssh-v3",
   "keywords": [
     "ssh",
     "remote",

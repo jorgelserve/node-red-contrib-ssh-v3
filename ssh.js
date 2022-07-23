@@ -63,7 +63,7 @@ module.exports = function (RED) {
 
         node.options = {
             host: config.hostname,
-            port: 22,
+            port: config.port ? config.port : 22,
             username: node.credentials.username ? node.credentials.username : undefined,
             password: node.credentials.password ? node.credentials.password : undefined,
             privateKey: config.ssh ? require('fs').readFileSync(config.ssh) : undefined
@@ -154,7 +154,7 @@ module.exports = function (RED) {
 
     RED.nodes.registerType("ssh-v3", SshV3, {
         credentials: {
-            email: { type: "text" },
+            // email: { type: "text" },
             username: { type: "text" },
             password: { type: "password" }
         }
