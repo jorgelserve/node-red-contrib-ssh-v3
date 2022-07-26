@@ -1,6 +1,6 @@
 {
   "name": "@jorgelserve/node-red-contrib-ssh-v3",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ssh connection",
   "main": "ssh.js",
   "scripts": {
