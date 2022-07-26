@@ -7,7 +7,7 @@
 
 # node-red-contrib-ssh-v3
 
-ssh connection remote host
+ssh connection remote host with custom port support
 
 ![Istantanea_2022-02-06_18-05-41](https://user-images.githubusercontent.com/68069659/152692171-867b60a5-bbfc-4d0a-8334-f7e5e45bd839.png)
 
